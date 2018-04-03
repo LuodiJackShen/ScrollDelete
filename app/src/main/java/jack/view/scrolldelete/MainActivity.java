@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onExtend(ScrollDeleteLayout layout) {
+                if (mDeleteLayout != null) {
+                    mDeleteLayout.shrink();
+                }
                 mDeleteLayout = null;
                 mDeleteLayout = layout;
             }

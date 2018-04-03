@@ -75,8 +75,11 @@ ScrollDelete
             */
             @Override
             public void onExtend(ScrollDeleteLayout layout) {
-                mDeleteLayout = null;
-                mDeleteLayout = layout;
+                    if (mDeleteLayout != null) {
+                        mDeleteLayout.shrink();
+                    }
+                    mDeleteLayout = null;
+                    mDeleteLayout = layout;
             }
         }
 ```
