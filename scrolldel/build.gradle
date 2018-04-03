@@ -39,7 +39,7 @@ dependencies {
 def siteUrl = 'https://github.com/LuodiJackShen/ScrollDelete'    // 项目主页
 def gitUrl = 'https://github.com/LuodiJackShen/ScrollDelete.git' // 项目的git地址
 def module_name = 'ScrollDelLayout'    // 项目的名称
-group = 'jack.view'    // 所在组
+group = 'jack-view'    // 所在组
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
