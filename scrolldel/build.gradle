@@ -39,7 +39,7 @@ dependencies {
 def siteUrl = 'https://github.com/LuodiJackShen/ScrollDelete'    // 项目主页
 def gitUrl = 'https://github.com/LuodiJackShen/ScrollDelete.git' // 项目的git地址
 def module_name = 'ScrollDelLayout'    // 项目的名称
-group = 'jack-view'    // 所在组
+group = 'jack.view'    // 所在组
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
@@ -93,7 +93,7 @@ bintray {
     key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "jack.view"        // 你在bintray上创建的库的名称
+        repo = "jack-view"        // 你在bintray上创建的库的名称
         name = module_name               // 在jcenter中的项目名称
         websiteUrl = siteUrl
         vcsUrl = gitUrl
