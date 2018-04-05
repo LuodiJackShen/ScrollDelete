@@ -1,5 +1,7 @@
 ScrollDelete
 -------
+[ ![Download](https://api.bintray.com/packages/luodijackshen/jack-view/ScrollDelLayout/images/download.svg) ](https://bintray.com/luodijackshen/jack-view/ScrollDelLayout/_latestVersion)
+<br>
 仿qq滑动删除-已经处理了滑动冲突，使用简单。<br>
 
 效果图
@@ -8,6 +10,10 @@ ScrollDelete
 
 使用
 -------
+0.  加入依赖
+```java
+        compile 'jack.view:scrolldel:1.0'
+```
 
 1.  在布局文件里引入
 ```xml
