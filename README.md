@@ -2,6 +2,8 @@ ScrollDelete
 -------
 [ ![Download](https://api.bintray.com/packages/luodijackshen/jack-view/ScrollDelLayout/images/download.svg) ](https://bintray.com/luodijackshen/jack-view/ScrollDelLayout/_latestVersion)
 <br>
+<a href="https://blog.csdn.net/a199581/article/details/79838924" title="博客地址">博客地址</a>
+<br>
 仿qq滑动删除-已经处理了滑动冲突，使用简单。<br>
 
 效果图
