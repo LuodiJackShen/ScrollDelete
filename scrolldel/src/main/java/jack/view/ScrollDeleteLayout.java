@@ -100,10 +100,8 @@ public class ScrollDeleteLayout extends ViewGroup {
                     mLastX = x;
                     mLastY = y;
                     return true;
-                } else {
-                    //如果我不处理则交给父布局处理。
-                    requestDisallowInterceptTouchEvent(false);
                 }
+                break;
             case MotionEvent.ACTION_CANCEL:
             case MotionEvent.ACTION_UP:
                 //调整布局
