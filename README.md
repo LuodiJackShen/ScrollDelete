@@ -14,7 +14,7 @@ ScrollDelete
 -------
 0.  加入依赖
 ```java
-        compile 'jack.view:scrolldel:1.0'
+        compile 'jack.view:scrolldel:1.0.1'
 ```
 
 1.  在布局文件里引入
